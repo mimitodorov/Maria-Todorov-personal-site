@@ -1,0 +1,144 @@
+body {
+  color: #40514E;
+  margin: 0;
+  /* all 4 sides are 0px */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size:5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: normal;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 4%;
+  border-color: #8AA9A8;
+  margin: 100px auto 100px auto;
+}
+
+a{
+  text-decoration: none;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color:  #d1f3fa;
+}
+
+.profile{
+  padding-top: 30px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #545454;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.bottom-container{
+background-color: #66BFBF;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+.info{
+  color: white;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img{
+  float: left;
+  margin: 30px;
+  width: 25%
+}
+
+.avo-img{
+  float: right;
+  margin: 30px;
+  width: 25%;
+}
+
+.contact-description{
+  line-height: 4;
+}
+
+.btn{
+  color: white;
+  padding: 10px;
+  line-height: 10;
+  background-color: #66BFBF;
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+              inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-description{
+  padding-top: 30px;
+  width: 38%;
+  margin: auto;
+  line-height: 2;
+}
+
+.profile-description{
+  width: 30%;
+  line-height: 2;
+  margin: auto;
+}
+
+.copyright{
+  font-size: 80%;
+  margin-top: 30px;
+  color: white;
+}
